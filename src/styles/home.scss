@@ -1,0 +1,14 @@
+/* homepage styles */
+
+.social-links{
+    a{
+        &:not(:last-child){
+            margin-right: 20px;
+        }
+    }
+
+    .icons{
+        font-size: 2em;
+        color: $link-color;
+    }
+} 
